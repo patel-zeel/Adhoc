@@ -4,9 +4,9 @@
         "post0": {
             "title": "Why functions from Linear Kernel are linear",
             "content": ". From Wikipedia, A general approach of drawing functions from the multivariate normal distribution $ mathcal{N}(O, Sigma)$ of dimension $n$ is as the following, . Find any real matrix $A$, such that $AA^T= Sigma$. | Any sample $Y = AZ$ will follow our multivariate distribution, where $Z$ is any random sample taken from $N$ dimensional standard normal distribution. | Our linear kernel function following the distill article is given as, $$ K(x_i,x_j) = sigma_b^2 + sigma^2(x_i-c)(x_j-c) $$ . For the basic case, considering $ sigma_b=0$, our covariance matrix can be written as $AA^T$ if $A$ is given as follows, $$ A= begin{bmatrix} sigma(x_1-c) &amp; 0 &amp; ... &amp; 0 sigma(x_2-c) &amp; 0 &amp; ... &amp; 0 ...&amp; ... &amp; ... &amp; ... sigma(x_n-c)&amp; 0 &amp; ... &amp; 0 end{bmatrix} $$ . Now, $AZ$ will follow the desired multivariate normal distribution. So, $$ Y = begin{bmatrix} y_1 y_2 ... y_n end{bmatrix} =AZ= begin{bmatrix} sigma(x_1-c) &amp; 0 &amp; ... &amp; 0 sigma(x_2-c) &amp; 0 &amp; ... &amp; 0 ...&amp; ... &amp; ... &amp; ... sigma(x_n-c)&amp; 0 &amp; ... &amp; 0 end{bmatrix} begin{bmatrix} z_1 z_2 ... z_n end{bmatrix}=z_1 sigma begin{bmatrix} x_1 x_2 ... x_n end{bmatrix}-z_1 sigma c $$ Here, $Y$ follows $Y=mX+c$ linear form. . Now, if we consider $ sigma_b ne 0$ case, We can write the calculations as following, $$ A= begin{bmatrix} sigma(x_1-c) &amp; sigma_b &amp; ... &amp; 0 sigma(x_2-c) &amp; sigma_b &amp; ... &amp; 0 ...&amp; ... &amp; ... &amp; ... sigma(x_n-c)&amp; sigma_b &amp; ... &amp; 0 end{bmatrix} $$ $$ Y = begin{bmatrix} y_1 y_2 ... y_n end{bmatrix} =AZ= begin{bmatrix} sigma(x_1-c) &amp; sigma_b &amp; ... &amp; 0 sigma(x_2-c) &amp; sigma_b &amp; ... &amp; 0 ...&amp; ... &amp; ... &amp; ... sigma(x_n-c)&amp; sigma_b &amp; ... &amp; 0 end{bmatrix} begin{bmatrix} z_1 z_2 ... z_n end{bmatrix}=z_1 sigma begin{bmatrix} x_1 x_2 ... x_n end{bmatrix}-(z_1 sigma c - z_2 sigma_b) $$ . Again, $Y$ follows $Y=mX+c$ linear form. . End of the proof. .",
-            "url": "https://patel-zeel.github.io/Adhoc/gp/2021/03/24/Why_Linear_kernel_is_linear.html",
-            "relUrl": "/gp/2021/03/24/Why_Linear_kernel_is_linear.html",
-            "date": " • Mar 24, 2021"
+            "url": "https://patel-zeel.github.io/Adhoc/gp/2021/03/29/Why_Linear_kernel_is_linear.html",
+            "relUrl": "/gp/2021/03/29/Why_Linear_kernel_is_linear.html",
+            "date": " • Mar 29, 2021"
         }
         
     
